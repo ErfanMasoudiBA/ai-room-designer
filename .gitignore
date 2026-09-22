@@ -1,0 +1,57 @@
+# =========================
+# Node.js & Next.js (فرانت‌اند)
+# =========================
+node_modules/
+.next/
+out/
+build/
+.vercel/
+
+# لاگ‌های پکیج‌منیجرها
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# فایل‌های متغیرهای محیطی
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Python & FastAPI (بک‌اند)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# محیط‌های مجازی پایتون
+venv/
+env/
+.venv/
+/venv
+/env
+
+# تصاویر آپلود شده و رندر شده
+ai-room-backend/static/uploads/*
+!ai-room-backend/static/uploads/.gitkeep
+ai-room-backend/static/generated/*
+!ai-room-backend/static/generated/.gitkeep
+
+# دیتابیس Redis و لاگ‌ها
+dump.rdb
+*.log
+
+# کش‌های هوش مصنوعی و ژوپیتر (کولب)
+hf_cache/
+.ipynb_checkpoints/
+
+# =========================
+# سیستم‌عامل و IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
