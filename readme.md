@@ -41,8 +41,8 @@ The backend is designed to run on a machine with at least a T4 GPU (16GB VRAM).
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/yourusername/ai-room-designer.git](https://github.com/yourusername/ai-room-designer.git)
-   cd ai-room-designer/frontend
+   git clone [https://github.com/ErfanMasoudiBA/ai-room-designer.git](https://github.com/ErfanMasoudiBA/ai-room-designer.git)
+   cd ai-room-designer/ai_room__frontend
    ```
 
 2. Install dependencies:
